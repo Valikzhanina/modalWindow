@@ -1,0 +1,143 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* .app-wrapper {
+  display: grid;
+} */
+.header {
+  display: block;
+  background-color: #e73232;
+  box-sizing: border-box;
+}
+.header-info {
+  box-sizing: border-box;
+  padding: 3px;
+  background-color: rgb(17, 17, 17);
+  display: flex;
+}
+.header-icon-list {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  flex-wrap: nowrap;
+}
+.header-icon {
+  margin-right: 10px;
+  overflow: hidden;
+}
+.header-phone {
+  color: rgb(59, 233, 59);
+  margin-left: 120px;
+}
+.header-info-colored {
+  color: azure;
+}
+.header-logo {
+  width: 190px;
+  height: 100px;
+  transition: 0.5s;
+  padding: 15px;
+}
+.header-logo:hover {
+  transition: 1s;
+  transform: scale(1.1);
+}
+.insta {
+  width: 20px;
+  height: 20px;
+  transition: 0.5s;
+}
+.insta:hover {
+  transition: 1s;
+  transform: scale(1.2);
+}
+.telega {
+  width: 30px;
+  height: 30px;
+  transition: 0.5s;
+  border-radius: 25px;
+}
+.telega:hover {
+  transition: 1s;
+  transform: scale(1.2);
+}
+.facebook {
+  width: 20px;
+  height: 20px;
+  transition: 0.5s;
+  border-radius: 25px;
+}
+.facebook:hover {
+  transition: 1s;
+  transform: scale(1.2);
+}
+.order {
+  border-radius: 25px;
+  transform: scale(1.6);
+  width: 20px;
+  height: 20px;
+  transition: 0.5s;
+}
+.order:hover {
+  transition: 1s;
+  transform: scale(1.9);
+}
+.logo-and-menu {
+  display: flex;
+  justify-content: space-between;
+}
+.menu-list {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-right: 15px;
+}
+.sushi-menu {
+  display: flex;
+  align-items: center;
+}
+.menu {
+  color: aliceblue;
+  font-weight: bold;
+  margin-right: 45px;
+  transition: 0.5s;
+}
+.menu:hover {
+  color: rgb(59, 233, 59);
+  transition: 0.5s;
+  transform: scale(1.1);
+}
